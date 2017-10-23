@@ -1,0 +1,54 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 29, 2015, 6:23:44 PM
+    Author     : mbrzusto
+*/
+.chart {
+    /*-fx-background-color: red;*/
+}
+
+.chart-plot-background {
+    -fx-background-color: #ffffff;
+}
+
+.default-color0.chart-series-line { -fx-stroke: transparent; }
+.default-color1.chart-series-line { -fx-stroke: blue; -fx-stroke-width: 1; }
+.default-color2.chart-series-line {
+    -fx-stroke: blue;
+    -fx-stroke-width: 1;
+    -fx-stroke-dash-array: 1 4 1 4;
+}
+.default-color3.chart-series-line { 
+    -fx-stroke: blue;
+    -fx-stroke-width: 1;
+    -fx-stroke-dash-array: 1 4 1 4;
+}
+
+/*.default-color0.chart-line-symbol { 
+    -fx-background-color: white, green; 
+}*/
+.default-color1.chart-line-symbol { 
+    -fx-background-color: transparent, transparent;
+}
+.default-color2.chart-line-symbol { 
+    -fx-background-color: transparent, transparent; 
+}
+.default-color3.chart-line-symbol { 
+    -fx-background-color: transparent, transparent; 
+}
+/*.default-color0.chart-legend-item-symbol{
+    -fx-background-color: blue;
+ }
+.default-color1.chart-legend-item-symbol{
+    -fx-background-color: red;
+ }
+ .default-color2.chart-legend-item-symbol{
+    -fx-background-color: black;
+ }
+ .default-color3.chart-legend-item-symbol{
+    -fx-background-color: black;
+ }*/
