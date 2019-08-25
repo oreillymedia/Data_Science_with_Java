@@ -64,7 +64,7 @@ public class Iris {
                         labels.setEntry(rowCounter, 1, 1);
                         break;
                     case "Iris-virginica":
-                        labels.setEntry(rowCounter, 3, 1);
+                        labels.setEntry(rowCounter, 2, 1);
                         break;
                     default:
                         System.out.println("something wrong with " + plantClass);
