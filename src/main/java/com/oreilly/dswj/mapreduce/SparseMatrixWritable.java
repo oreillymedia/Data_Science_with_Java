@@ -40,7 +40,7 @@ public class SparseMatrixWritable implements Writable {
     @Override
     public void write(DataOutput d) throws IOException {
         d.writeInt(rowIndex);
-        d.writeInt(rowIndex);
+        d.writeInt(columnIndex);
         d.writeDouble(entry);
     }
 

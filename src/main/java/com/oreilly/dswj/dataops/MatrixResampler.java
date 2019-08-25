@@ -67,10 +67,6 @@ public class MatrixResampler {
         
         Random rnd = new Random(seed);
         
-//        for (int i = 1; i <= features.getRowDimension(); i++) {
-        for (int i = 0; i < features.getRowDimension(); i++) {
-            indeces.add(i);
-        }
         Collections.shuffle(indeces, rnd);
         
         int testSize = new Long(Math.round(testFraction * features.getRowDimension())).intValue();
